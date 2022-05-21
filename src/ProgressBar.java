@@ -14,7 +14,7 @@ public class ProgressBar {
 
         Stream.generate(() -> incomplete).limit(length).forEach(builder::append);
 
-        // the code above replace the for below
+        // the code above replace the code commented below
         /*for (int i = 0; i < length; i++) {
             builder.append(incomplete);
         }*/
